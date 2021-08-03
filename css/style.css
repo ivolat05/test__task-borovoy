@@ -187,7 +187,8 @@ ul {
 .burger__active {
     position: relative;
     z-index: 8;
-    right: 10px;
+    left: 11px;
+    top: -25px;
 }
 
 .burger__active::before {
