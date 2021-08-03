@@ -187,16 +187,16 @@ ul {
 .burger__active {
     position: relative;
     z-index: 8;
-    left: 11px;
-    top: -25px;
+    left: -2px;
+    top: -36px;
 }
 
 .burger__active::before {
     transform: rotate(45deg);
 
-    top: 22px;
+    top: 23px;
 
-    background-color: red;
+    background-color: #331e03;
 }
 
 .burger__active .menu__burger-line {
@@ -207,7 +207,7 @@ ul {
     width: 56px;
     transform: rotate(-45deg);
     bottom: 9px;
-    background-color: red;
+    background-color: #331e03;
 }
 
 
@@ -464,6 +464,7 @@ ul {
 
     .menu {
         width: 100%;
+        padding: 40px 0 30px;
     }
 
     .menu__list-link {
@@ -478,7 +479,7 @@ ul {
     }
 
     .header__conteiner {
-        padding-bottom: 70px;
+        padding-bottom: 100px;
         margin: 0;
         width: 85%;
     }
